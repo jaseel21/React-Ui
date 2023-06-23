@@ -23,6 +23,8 @@ a{
     border-radius: 15px;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     border-left: 1px solid rgba(255, 255, 255, 0.4);
+    perspective: 1000px;
+    transform-style: preserve-3d;
 }
 
 /* backgrund modification section */
@@ -47,6 +49,8 @@ a{
     border-radius: 50%;
     animation: float 2s 1s infinite ease-in-out;
 }
+
+
 
 /* Personal data section */
 
@@ -86,10 +90,7 @@ a{
     width:100%;
     height: 10vh;
 }
-.form-l{
-    width: 100%;
-    height: auto;
-}
+
 .form1{
     width: 45%;
     height: auto;
@@ -105,21 +106,11 @@ a{
     height: auto;
     float: right;
 }
-.form{
-    width: 45%;
+.form-l{
+    width: 100%;
     height: auto;
-    float: left;
 }
-.coma{
-    width: 10%;
-    height: auto;
-    float: left;
-}
-.data{
-    width: 45%;
-    height: auto;
-    float: right;
-}
+
 .card .tags a i.fa-facebook {
     color: #3b5998;
 }
@@ -188,9 +179,6 @@ a{
 }
 
 @media (max-width: 500px){
-    .cardContainer{
-        
-    }
     .card{
     width: auto;
     height: auto;

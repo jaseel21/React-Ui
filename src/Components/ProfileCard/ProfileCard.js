@@ -1,34 +1,48 @@
-import React from 'react'
+
+import React, { useRef, useEffect } from 'react';
+import VanillaTilt from 'vanilla-tilt';
+import 'vanilla-tilt/dist/vanilla-tilt.min.js';
 import './ProfileCard.css'
 
-function ProfileCard() {
+const ProfileCard = () => {
+  const tiltRef = useRef(null);
+
+  useEffect(() => {
+    VanillaTilt.init(tiltRef.current, {
+      max: 10,
+      speed: 400,
+      glare: true,
+      'max-glare': 0.5,
+    });
+  }, []);
+
   return (
     <div className='cardContainer'>
-        <div class="circle-1"></div>
-    <div class="circle-2"></div>
-    <div class="card">
-        <img src="https://novastela.com/wp-content/uploads/2021/05/steve-and-denesh.png" class="user" alt=""/>
+        <div className="circle-1"></div>
+    <div className="circle-2"></div>
+    <div ref={tiltRef} className="card">
+        <img src="https://novastela.com/wp-content/uploads/2021/05/steve-and-denesh.png" className="user" alt=""/>
         <h1>Muhammed Mishab</h1>
-        <span class="text1">S/o Abdulla</span>
-        <div class="line"></div>
-        <div class="text2">
-            <div class="form-f">
-                <div class="form1">
+        <span className="text1">S/o Abdulla</span>
+        <div className="line"></div>
+        <div className="text2">
+            <div className="form-f">
+                <div className="form1">
                     <p><b>Register Number</b></p>
                     <p><b>Address</b></p>
                 </div>
-                <div class="coma1">
+                <div className="coma1">
                     <p><b>:</b></p>
                     <p><b>:</b></p>
                 </div>
-                <div class="data1">
+                <div className="data1">
                     <p>313</p>
                     <p>Nalakath (h) changaleeri mothikkal (po) mannarkkad palakkad (dis) kerala</p>
                 </div>
             </div>
-            <div class="form-l">
-                <div class="form">
-                    <p><b>Language</b></p>
+            <div className="form-l">
+                <div className="form1">
+                    <p><b>Subject</b></p>
                     <p><b>Date of birth</b></p>
                     <p><b>Phone number</b> </p>
                     <p>Whatsapp number<b></b></p>
@@ -38,7 +52,7 @@ function ProfileCard() {
                     <p><b>Exam</b> </p>
                     <p><b>Have we contacted you ?</b></p>
                 </div>
-                <div class="coma">
+                <div className="coma1">
                     <p><b>:</b></p>
                     <p><b>:</b></p>
                     <p><b>:</b></p>
@@ -49,7 +63,7 @@ function ProfileCard() {
                     <p><b>:</b></p>
                     <p><b>:</b></p>
                 </div>
-                <div class="data">
+                <div className="data1">
                     <p>Arabic</p>
                     <p>02/02/2002</p>
                     <p>6238661924</p>
@@ -61,14 +75,14 @@ function ProfileCard() {
                     <p>No</p>
                 </div>
             </div>
-            <div class="tags">
+            <div className="tags">
                 <a href="#"><i class="fa-solid fa-pen-to-square icon-1"></i></a>
                 <a href="#"><i class="fa-solid fa-trash icon-2"></i></a>
             </div>
         </div>
     </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProfileCard
+export default ProfileCard;

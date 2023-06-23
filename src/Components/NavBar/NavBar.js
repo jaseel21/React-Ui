@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import './NavBar.css';
 
-
-
 function NavBar() {
   useEffect(() => {
     const expertiseItems = document.querySelectorAll(".expertise-item");
@@ -28,7 +26,7 @@ function NavBar() {
       <header>
         <div className="navbar">
           <div className="logo">
-            <a href="#">
+            <a href="search">
               Diploma<span id="dot"><b>.</b></span>
               <span id="unscoire">_</span>
             </a>
