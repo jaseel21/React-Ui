@@ -26,7 +26,7 @@ function NavBar() {
       <header>
         <div className="navbar">
           <div className="logo">
-            <a href="search">
+            <a href="/">
               Diploma<span id="dot"><b>.</b></span>
               <span id="unscoire">_</span>
             </a>

@@ -34,17 +34,17 @@ header{
 .navbar .logo a{
   font-size: 1.8rem;
   font-weight: bold;
-  color: rgb(88, 217, 231);
+  color: rgb(157, 55, 253);
 }
 .navbar .logo span#dot{
   margin-left: 5px;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 .navbar .logo span#unscoire{
   margin-left: 5px;
   font-weight: bold;
-  color: rgb(157, 55, 253);
+  color: rgb(88, 217, 231);
 }
 .navbar label{
   color: rgb(0, 0, 0);
@@ -62,6 +62,9 @@ header{
 }
 .navbar .links a{
   color: rgb(61, 61, 61);
+}
+.navbar .links a:hover{
+  color: rgb(146, 90, 197);
 }
 .navbar .toggle_btn{
   color: white;

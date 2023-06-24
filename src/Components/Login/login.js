@@ -23,7 +23,7 @@ function login() {
             </div>
             <input type="submit" id="inp4"/>
             <h1>Login</h1>
-            <h6>Sign Up</h6>
+            <h5>Sign Up</h5>
         </form>
     </div>
   )
