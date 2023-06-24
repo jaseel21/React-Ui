@@ -4,7 +4,7 @@ import './login.css'
 function login() {
   return (
     <div>
-        <form action="">
+        <form action="submit" className='loginForm'>
             <div class="in1">
                 <input type="text" id="inp1" required/>
                 <label for="inp1">Email</label>
