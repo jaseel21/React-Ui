@@ -15,15 +15,9 @@ function login() {
                 <label for="inp2">Password</label>
                 <ion-icon name="lock-closed-outline"></ion-icon>
             </div>
-            <div class="checkk">
-                <div class="in3">
-                    <input type="checkbox" id="inp3" required/>
-                    <label for="inp3">Remember Me</label>
-                </div>
-            </div>
-            <input type="submit" id="inp4"/>
-            <h1>Login</h1>
-            <h5>Sign Up</h5>
+            
+            <button id="inp4">Login</button>
+            <img src="https://i.postimg.cc/YqVPfgg4/img-01.png" alt="" />
         </form>
     </div>
   )

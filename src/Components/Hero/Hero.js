@@ -19,7 +19,7 @@ function Hero() {
                 </div>
                 <h1 className='sh4'>Search Students<br /><span>NAME</span><br />here</h1>
                 <div className='imgOfSearch'>
-                <img src="https://imgtr.ee/images/2023/06/24/dKq5Q.png" alt="dKq5Q.png" border="0" />
+                <img src="https://i.postimg.cc/tgVy2fFG/arrow-png-01.png" alt="dKq5Q.png" border="0" />
                 </div>
             </div>
             <div className="search-bar-container">

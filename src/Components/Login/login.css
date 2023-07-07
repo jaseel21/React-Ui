@@ -93,7 +93,8 @@
     width: auto;
     font-size: 15px;
 }
-form h1{
+form img{
+    width: 20vh;
     position: absolute;
     top: 18%;
     left: 50%;
@@ -105,9 +106,13 @@ form h1{
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
-    border-radius: 16px;
-    width: 60%;
-    height: 30px;
+    color: white;
+    background-color:rgb(157, 55, 253);
+    border-radius: 10px;
+    width: 70%;
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
 }
 .checkk{
     position: absolute;

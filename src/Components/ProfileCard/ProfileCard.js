@@ -26,7 +26,7 @@ const ProfileCard = () => {
         <span className="text1">S/o Abdulla</span>
         <div className="line"></div>
         <div className="text2">
-            <div className="form-f">
+            <div className="form-data-upper">
                 <div className="form1">
                     <p><b>Register Number</b></p>
                     <p><b>Address</b></p>
@@ -40,12 +40,12 @@ const ProfileCard = () => {
                     <p>Nalakath (h) changaleeri mothikkal (po) mannarkkad palakkad (dis) kerala</p>
                 </div>
             </div>
-            <div className="form-l">
+            <div className="form-under">
                 <div className="form1">
                     <p><b>Subject</b></p>
                     <p><b>Date of birth</b></p>
                     <p><b>Phone number</b> </p>
-                    <p>Whatsapp number<b></b></p>
+                    <p><b>Whatsapp number</b></p>
                     <p><b>Year</b></p>
                     <p><b>Text book</b> </p>
                     <p><b>Certificate</b> </p>

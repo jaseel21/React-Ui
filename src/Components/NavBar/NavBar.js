@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react';
 import './NavBar.css';
+import { Link } from 'react-router-dom';
+
 
 function NavBar() {
   useEffect(() => {
@@ -45,7 +47,7 @@ function NavBar() {
               <a href="#">// urdu</a>
             </li>
           </ul>
-          <a href="#" className="action_btn">
+          <a href="/login" className="action_btn">
             Login
           </a>
           <div className="toggle_btn" onClick={toggleMenu}>
@@ -63,9 +65,9 @@ function NavBar() {
             <a href="#">// urdu</a>
           </li>
           <li>
-            <a href="#" className="action_btn">
-              Login
-            </a>
+          <Link to="/login" className="action_btn">
+            Login
+          </Link>
           </li>
           <li>
             <p>© 2023. Made with passion by Alathoorpadi Dars.<br/>All right reserved.</p>
