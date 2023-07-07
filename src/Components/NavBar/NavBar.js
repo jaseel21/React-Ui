@@ -40,7 +40,7 @@ function NavBar() {
             </li>
             <li>
               <label htmlFor="">02</label>
-              <a href="#">// arabic</a>
+              <a href="#">// about</a>
             </li>
             <li>
               <label htmlFor="">03</label>
@@ -59,7 +59,7 @@ function NavBar() {
             <a href="#">// home</a>
           </li>
           <li>
-            <a href="#">// arabic</a>
+            <a href="#">// about</a>
           </li>
           <li>
             <a href="#">// urdu</a>

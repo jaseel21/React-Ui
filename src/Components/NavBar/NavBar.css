@@ -11,7 +11,7 @@ a{
   letter-spacing: -1px;
 }
 a:hover{
-  color: rgb(146, 90, 197);
+  color: #5029bc;
 }
 
 /* HEADER */
@@ -34,7 +34,7 @@ header{
 .navbar .logo a{
   font-size: 1.8rem;
   font-weight: bold;
-  color: rgb(157, 55, 253);
+  color: #5029bc;
 }
 .navbar .logo span#dot{
   margin-left: 5px;
@@ -64,7 +64,7 @@ header{
   color: rgb(61, 61, 61);
 }
 .navbar .links a:hover{
-  color: rgb(146, 90, 197);
+  color: #5029bc;
 }
 .navbar .toggle_btn{
   color: white;
@@ -73,7 +73,7 @@ header{
   display: none;
 }
 .action_btn{
-  background-color: rgb(157, 55, 253);
+  background-color: #5029bc;
   color:white;
   padding: 0.5rem 1rem;
   border: none;

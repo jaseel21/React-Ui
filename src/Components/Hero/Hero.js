@@ -30,7 +30,7 @@ function Hero() {
     </div>
         <div className='home-right'>
             <div className="HeadLine">
-                <h1>ADSA<br />Deploma</h1>
+                <h1>ADSA<br />Diploma</h1>
             </div>
             <div className='Description'>
                 <p><span>Alathurpadi Dars</span> is held at Alathurpadi Juma Masjid, a historical Masjid situated in Alathurpadi town, has a history of more than 100 years.</p>
