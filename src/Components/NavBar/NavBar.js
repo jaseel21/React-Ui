@@ -11,7 +11,7 @@ function NavBar() {
       item.style.animationDelay = index * 0.2 + "s";
     });
   }, []);
-
+ 
   const toggleMenu = () => {
     const dropDownMenu = document.querySelector('.dropdown_menu');
     const toggleBtnIcon = document.querySelector('.toggle_btn i');
@@ -56,13 +56,13 @@ function NavBar() {
         </div>
         <div className="dropdown_menu">
           <li>
-            <a href="#">// home</a>
+            <a onClick={toggleMenu} href="#">// home</a>
           </li>
           <li>
-            <a href="#">// about</a>
+            <a onClick={toggleMenu} href="#">// about</a>
           </li>
           <li>
-            <a href="#">// urdu</a>
+            <a onClick={toggleMenu} href="#">// urdu</a>
           </li>
           <li>
           <Link to="/login" className="action_btn">

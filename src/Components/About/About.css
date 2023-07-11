@@ -27,6 +27,7 @@
     float: right;
     background-color: #fdfdfd;
     padding: 152px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.3);
 }
 .inner-container h1{
     margin-bottom: 30px;

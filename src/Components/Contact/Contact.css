@@ -92,9 +92,18 @@
   }
   .right-side .message-box{
     min-height: 110px;
+    margin-left: 5px;
   }
+  
   .right-side .input-box textarea{
     padding-top: 6px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
   }
   .right-side .button{
     display: inline-block;
